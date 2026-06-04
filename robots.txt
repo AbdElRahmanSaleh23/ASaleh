@@ -1,0 +1,12 @@
+# robots.txt — AbdEl-Rahman Saleh Portfolio
+# https://abdelrahmansaleh.work.gd/
+
+# Allow all search engines to crawl everything
+User-agent: *
+Allow: /
+
+# Point crawlers to the sitemap
+Sitemap: https://abdelrahmansaleh.work.gd/sitemap.xml
+
+# Crawl delay (optional, be respectful to bots)
+Crawl-delay: 10
