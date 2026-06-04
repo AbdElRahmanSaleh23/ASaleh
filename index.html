@@ -50,22 +50,22 @@
   <!-- ═══════════════════════════════════════
        FAVICON
   ═══════════════════════════════════════ -->
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-  <link rel="manifest" href="/site.webmanifest" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png" />
+  <link rel="manifest" href="/images/site.webmanifest" />
 
   <!-- ═══════════════════════════════════════
        PRECONNECT (performance helps SEO)
   ═══════════════════════════════════════ -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
-  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-  <link rel="shortcut icon" href="/favicon.ico" />
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" href="/images/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="/images/favicon.svg" />
+  <link rel="shortcut icon" href="/images/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png" />
   <meta name="apple-mobile-web-app-title" content="ASaleh" />
-  <link rel="manifest" href="/site.webmanifest" />
+  <link rel="manifest" href="/images/site.webmanifest" />
   <link
     href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=Exo+2:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&family=Share+Tech+Mono&display=swap"
     rel="stylesheet">
@@ -90,7 +90,7 @@
         "url": "https://abdelrahmansaleh.work.gd/",
         "email": "abdelrahmansaleh.dev@gmail.com",
         "telephone": "+201555905571",
-        "image": "https://abdelrahmansaleh.work.gd/og-image.png",
+        "image": "https://abdelrahmansaleh.work.gd/images/og-image.png",
         "address": {
           "@type": "PostalAddress",
           "addressLocality": "Cairo",
@@ -183,9 +183,13 @@
 
   <!-- NAV -->
   <nav>
-    <a href="#hero" class="nav-logo">
+    <!-- <a href="#hero" class="nav-logo">
       <span class="nav-logo-bracket">[</span>AS<span class="nav-logo-bracket">]</span>
       <div class="nav-logo-dot"></div>
+    </a> -->
+
+    <a href="#hero" class="nav-logo">
+      <img src="/images/logo.png" alt="AS Logo" class="logo-img">
     </a>
     <ul class="nav-links">
       <li><a href="#about">About</a></li>
@@ -759,7 +763,11 @@
 
   <!-- FOOTER -->
   <footer>
-    <div class="footer-brand">[ AS.dev ]</div>
+    <!-- <div class="footer-brand">[ AS.dev ]</div> -->
+
+    <div class="footer-brand">
+      <img src="/images/logo.png" alt="AS Logo" class="footer-logo">
+    </div>
     <div class="footer-copy">© 2025 AbdEl-Rahman Saleh — FullStack .NET Developer</div>
     <div class="footer-links">
       <a href="mailto:abdelrahmansaleh.dev@gmail.com">Email</a>

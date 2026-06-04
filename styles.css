@@ -21,6 +21,7 @@
       --card-bg2: rgba(10, 31, 61, 0.8);
       --r: 12px;
       --nav-h: 68px;
+      --footer-h: 68px;
 
       /* light overrides */
       --light-bg: #eaf2ff;
@@ -122,7 +123,14 @@
       background: var(--blue2);
       animation: blink 2s infinite;
     }
+    .logo-img{
+        height: 68px;
+        margin-top: 10px;
+        width: auto;
+        object-fit: contain;
+    }
 
+    
     @keyframes blink {
 
       0%,
@@ -1413,6 +1421,7 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
+      height: var(--footer-h);
     }
 
     .footer-brand {
@@ -1421,8 +1430,16 @@
       font-weight: 700;
       color: var(--blue2);
       letter-spacing: 0.06em;
+      display: flex;
+      align-items: center;
     }
+    .footer-logo{
+        height: 68px;
+        width: auto;
+        object-fit: contain fill;
+        overflow: hidden;
 
+    }
     .footer-copy {
       font-family: 'Share Tech Mono', monospace;
       font-size: 0.65rem;
